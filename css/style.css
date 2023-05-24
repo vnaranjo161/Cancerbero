@@ -1,0 +1,89 @@
+body{
+    background-color: #fff;
+    font-family: cursive;
+   
+}
+
+main{
+    box-sizing: content-box;
+    background-image: url(../image/fondo.jpg); background-size: cover;
+    border: 3px ;
+    box-shadow: 10px 10px 50px #585757;
+    border-radius: 10px;
+    padding: 80px;
+    margin: 100px ;
+    border-color: black;
+}
+
+header h1{
+    float: left;
+    padding: 50px 0 0 30px;
+}
+header img{
+    float: left;
+}
+
+nav{
+    text-align: center;
+}
+
+ul li{
+    display: inline;
+    padding: 0 10px;
+}
+
+ul li a{
+    text-decoration: none;
+    background-color: black;
+    border-radius: 10px;
+    margin: 25px;
+    padding: 5px;
+    color: #fff;
+}
+
+ul li a:hover{
+    color: #000000;
+    background-color: #7d7d7d;
+    border-radius: 10px;
+    margin: 30px;
+}
+
+p{
+    text-align: center;
+    margin: 30px;
+}
+
+img {
+    text-align: center;
+    padding: 20px;
+    border-radius: 50%;
+    
+}
+
+
+/***** Clases *****/
+
+.clear{
+    clear: both;
+}
+
+/***** Identificaciones *****/
+#cuadroTexto{
+    border: 3px solid #000000;
+    border-radius: 15px;
+}
+
+
+#cuadroTexto2{
+    background-image: url(../image/FondoTexto.jpg); background-size: cover;
+    border: 1px solid #000000;
+    border-radius: 15px;
+    color: #e1e1e1;
+}
+
+#canciones{
+    float: left;
+
+}
+
+
